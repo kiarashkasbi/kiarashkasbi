@@ -40,7 +40,9 @@ The thesis is ongoing, so public material is intentionally conservative. I do no
 
 ## Selected Public-Facing Work
 
-I am preparing a small public portfolio around my thesis direction using only safe derivative figures and synthetic or non-sensitive examples. The full thesis data and internal research details are not public.
+I maintain a small public-facing thesis portfolio around my thesis direction using only safe derivative figures and non-sensitive material. The full thesis data and internal research details are not public.
+
+- [Histology Registration for 3D Tissue Reconstruction](https://github.com/kiarashkasbi/histology-registration-portfolio)
 
 ## Contact
 
