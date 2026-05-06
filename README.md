@@ -1,49 +1,33 @@
 # Kiarash Kasbi
 
-MSc Medical Biotechnology student at the University of Padua, moving toward computational pathology, whole-slide image analysis, and biomedical visualization.
+MSc Medical Biotechnology student at the University of Padua, moving toward computational pathology, biomedical image analysis, and biomedical visualization.
 
-I started from a biology-first background, but my current work is increasingly computational. My MSc thesis focuses on preparing serial breast cancer histology sections for 3D tissue reconstruction, biomedical visualization, and later experimental analysis. Image registration is the preparatory step, not the final goal: the practical work includes SVS whole-slide images, pre-aligned JPEG references, tissue masks, visual quality control, affine registration, SIFT/RANSAC, ECC refinement, and deformation-aware thinking for later 3D reconstruction.
+I started from a biology-first background, with academic work across molecular biology, cancer biology, genomics, epigenetics, protein engineering, pharmacogenomics, PCR methodology, bioinformatics, and translational medicine. Over time, my interests have moved toward the point where biological data, medical images, and computational workflows meet.
 
-Alongside my academic route, I also have a visual-computing background in 3D modelling and digital sculpting. That part of my work trained my eye for morphology, texture, anatomy, spatial structure, and careful visual inspection. I see it as a useful bridge into computational pathology and biomedical visualization.
+My ongoing MSc thesis is part of that transition into computational biomedical research. Because the project is still in progress and involves non-public research material, I keep public descriptions intentionally general. Broadly, my current direction is connected to whole-slide histology image analysis, image registration, biomedical visualization, and preparation of serial tissue data for later 3D reconstruction and analysis.
 
-I am currently looking for funded PhD opportunities for 2027 in:
+Alongside my academic route, I also have a visual-computing background in 3D modelling and digital sculpting. That experience trained my eye for morphology, anatomy, spatial structure, texture, and visual quality control. I see it as a useful bridge into computational pathology, 3D tissue visualization, and image-based biomedical research.
+
+I am currently preparing for funded PhD opportunities starting in 2027 in:
 
 - Computational pathology and digital pathology
 - Whole-slide image analysis
 - Biomedical image registration
 - Cancer bioinformatics and medical AI
-- 3D tissue reconstruction and biomedical visualization
+- Spatial biology, 3D tissue reconstruction, and biomedical visualization
 
-## Current Thesis Direction
+## Public Portfolio
 
-**Preparing serial breast cancer histology sections for 3D tissue reconstruction and biomedical visualization**
+I maintain a small public-facing portfolio that describes my general research direction and technical interests. It does not include raw thesis data, unpublished results, private implementation details, patient-level information, or project-specific material from my MSc thesis.
 
-The main goal is not simply to align images. Registration is the enabling step for building spatially consistent serial-section data that can later support 3D tissue reconstruction, biomedical visualization, and downstream tissue-level experiments.
+- [Biomedical Image Analysis Portfolio](https://github.com/kiarashkasbi/histology-registration-portfolio)
 
-Current work includes:
+## Tools And Interests
 
-- Reading and preparing large SVS whole-slide images
-- Comparing SVS-derived images with lower-quality pre-aligned JPEG references
-- Creating tissue masks for early geometry checks
-- Testing transform-transfer feasibility at low resolution
-- Inspecting alignment with overlays, blends, and mask-based QC
-- Building toward feature-based internal QC and safer deformation-aware refinement
-- Using QuPath, Fiji/ImageJ, 3D Slicer, Photoshop, and Conda/Miniconda-supported Python environments for image inspection, workflow testing, figure preparation, and biomedical visualization
-
-The thesis is ongoing, so public material is intentionally conservative. I do not publish raw data, patient-level information, private implementation details, or sensitive unpublished material.
-
-## Tools I Use
-
-**Python and image analysis:** Python, OpenSlide, OpenCV, SimpleITK, NumPy, SciPy, Pillow, Conda/Miniconda  
-**Registration and QC:** affine registration, ECC, SIFT/RANSAC, tissue masks, overlays, residual checks  
-**Digital pathology and visualization:** QuPath, Fiji/ImageJ, 3D Slicer, Photoshop  
+**Computational direction:** computational pathology, digital pathology, whole-slide image analysis, biomedical image registration, biomedical visualization  
+**Tools I am learning/using:** Python, OpenCV, OpenSlide, SimpleITK, NumPy, SciPy, Pillow, Conda/Miniconda, QuPath, Fiji/ImageJ, 3D Slicer, Photoshop  
+**Biology background:** molecular biology, cancer biology, genomics, epigenetics, pharmacogenomics, protein engineering, PCR methodology  
 **Visual computing:** Maya, ZBrush, Blender, Substance 3D Painter, V-Ray, Arnold, Unreal Engine
-
-## Selected Public-Facing Work
-
-I maintain a small public-facing thesis portfolio around my thesis direction using only safe derivative figures and non-sensitive material. The full thesis data and internal research details are not public.
-
-- [Histology Registration for 3D Tissue Reconstruction](https://github.com/kiarashkasbi/histology-registration-portfolio)
 
 ## Contact
 
