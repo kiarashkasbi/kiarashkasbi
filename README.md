@@ -1,35 +1,45 @@
 # Kiarash Kasbi
 
-MSc Medical Biotechnology student at the University of Padua, moving toward computational pathology, biomedical image analysis, and biomedical visualization.
+**MSc Medical Biotechnology | Computational Pathology | Whole-Slide Image Analysis**
 
-I started from a biology-first background, with academic work across molecular biology, cancer biology, genomics, epigenetics, protein engineering, pharmacogenomics, PCR methodology, bioinformatics, and translational medicine. Over time, my interests have moved toward the point where biological data, medical images, and computational workflows meet.
+I am an MSc Medical Biotechnology student at the University of Padua, moving from a biology-first background toward computational biomedical research.
 
-My ongoing MSc thesis is part of that transition into computational biomedical research. Because the project is still in progress and involves non-public research material, I keep public descriptions intentionally general. Broadly, my current direction is connected to whole-slide histology image analysis, image registration, biomedical visualization, and preparation of serial tissue data for later 3D reconstruction and analysis.
+My current research direction is connected to **whole-slide histology image analysis**, **serial tissue-section alignment**, **biomedical image registration**, **deformation-aware quality control**, and preparation of histology data for later **3D tissue reconstruction and biomedical visualization**.
 
-Alongside my academic route, I also have a visual-computing background in 3D modelling and digital sculpting. That experience trained my eye for morphology, anatomy, spatial structure, texture, and visual quality control. I see it as a useful bridge into computational pathology, 3D tissue visualization, and image-based biomedical research.
+I am especially interested in research at the intersection of tissue biology, medical images, computational workflows, and visual quality control.
 
-I am currently preparing for funded PhD opportunities starting in 2027 in:
+## Current Focus
 
 - Computational pathology and digital pathology
 - Whole-slide image analysis
 - Biomedical image registration
+- Histology image alignment and quality control
+- Spatial biology and 3D tissue reconstruction
 - Cancer bioinformatics and medical AI
-- Spatial biology, 3D tissue reconstruction, and biomedical visualization
+- Explainable biomedical AI workflows
 
 ## Public Portfolio
 
-I maintain a small public-facing portfolio that describes my general research direction and technical interests. It does not include raw thesis data, unpublished results, private implementation details, patient-level information, or project-specific material from my MSc thesis.
+My public portfolio is intentionally designed as a **methodology portfolio**, not a release of MSc thesis data.
 
-- [Biomedical Image Analysis Portfolio](https://github.com/kiarashkasbi/histology-registration-portfolio)
+- [Whole-Slide Histology Registration Portfolio](https://github.com/kiarashkasbi/histology-registration-portfolio)
 
-## Tools And Interests
+The portfolio describes my public research direction, workflow concepts, registration/QC reasoning, and planned synthetic examples. It does not publish raw thesis data, patient-level material, unpublished figures, dataset identifiers, private implementation details, or original thesis code.
 
-**Computational direction:** computational pathology, digital pathology, whole-slide image analysis, biomedical image registration, biomedical visualization  
-**Tools I am learning/using:** Python, OpenCV, OpenSlide, SimpleITK, NumPy, SciPy, Pillow, Conda/Miniconda, QuPath, Fiji/ImageJ, 3D Slicer, Photoshop  
-**Biology background:** molecular biology, cancer biology, genomics, epigenetics, pharmacogenomics, protein engineering, PCR methodology  
-**Visual computing:** Maya, ZBrush, Blender, Substance 3D Painter, V-Ray, Arnold, Unreal Engine
+## Background
+
+**Biology and biomedical science:** molecular biology, cancer biology, genomics, epigenetics, protein engineering, pharmacogenomics, PCR methodology, translational medicine.
+
+**Computational direction:** Python-based biomedical workflow organization, image preprocessing, whole-slide image handling, tissue-mask logic, feature-based registration concepts, QC metrics, and reproducible documentation.
+
+**Visual computing:** 3D modelling, digital sculpting, rendering, anatomy-focused modelling, spatial visualization, and visual quality control.
+
+## Tools And Environments
+
+Python, OpenCV, OpenSlide, SimpleITK, NumPy, SciPy, Pillow, Conda/Miniconda, QuPath, Fiji/ImageJ, 3D Slicer, Maya, ZBrush, Blender, Substance 3D Painter, V-Ray, Arnold, Unreal Engine.
 
 ## Contact
 
 - GitHub: [kiarashkasbi](https://github.com/kiarashkasbi)
-- Email: Kiarashkk2000@gmail.com
+- LinkedIn: [linkedin.com/in/kiarash-kasbi](https://www.linkedin.com/in/kiarash-kasbi)
+- Email: kiarashkk2000@gmail.com
