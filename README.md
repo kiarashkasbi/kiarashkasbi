@@ -1,64 +1,73 @@
 # Kiarash Kasbi
 
-**MSc Medical Biotechnology | Computational Pathology | Whole-Slide Image Analysis | 3D Tissue Reconstruction**
+**MSc Medical Biotechnology | Computational Pathology | Serial Histology Registration | 3D Tissue Reconstruction**
 
-I am an MSc Medical Biotechnology student at the University of Padua with a **BSc background in Cellular and Molecular Biology**, moving from biology-first training toward computational biomedical research.
+I am an MSc Medical Biotechnology student at the University of Padua with a **BSc background in Cellular and Molecular Biology**, working at the intersection of tissue biology, computational pathology, biomedical image analysis, and scientific visualization.
 
-My current research direction combines **whole-slide histology image registration**, quality-controlled preparation of serial tissue sections, **3D tissue reconstruction**, and **biomedical visualization**. I am especially interested in research where tissue biology, medical images, spatial reconstruction, and interpretable computational workflows meet.
+My current thesis work focuses on turning serial histology sections and semantic tissue predictions into a spatially coherent, auditable, and interpretable 3D representation.
 
-## Current Focus
+## Current Research Focus
 
-- Computational pathology and digital pathology
-- Whole-slide image analysis
-- Biomedical image registration
-- Histology alignment and quality control
-- Serial-section 3D tissue reconstruction
-- Volumetric label reconstruction and class-separated surface representation
+- Whole-slide and serial-section histology registration
+- Registration quality control and failure-aware stack construction
+- Semantic 3D tissue reconstruction
+- Quantitative spatial analysis of reconstructed tissue classes
+- Connected components, persistence, inter-class adjacency, topology, and skeleton-based descriptors
+- Class-separated scientific and presentation geometry
 - Interactive biomedical visualization
-- Spatial biology and image-based biomedical research
-- Cancer bioinformatics and medical AI
-- Explainable and quality-controlled biomedical AI workflows
+- Reproducible scientific software and visualization workflows
 
-## Current Research Direction
+## Thesis Workflow
 
-My thesis work follows a registration-to-reconstruction perspective rather than treating image alignment as an isolated endpoint.
-
-At a public, non-sensitive level, the workflow can be described as:
+At a public, non-sensitive level, the workflow can be summarized as:
 
 ```text
 serial histology sections
 → registration and quality control
-→ accepted aligned sections
-→ reconstruction-oriented volume preparation
+→ aligned section stack
+→ semantic label reconstruction
+→ quantitative 3D spatial analysis
 → class-separated 3D representations
-→ interactive inspection and biomedical visualization
+→ interactive scientific inspection
 ```
 
-The current direction also includes practical visualization work across medical-imaging and 3D environments, including interactive class visibility/opacity, clipping-based inspection, reconstruction review, and preparation of visualization-ready assets.
+The work treats registration, reconstruction, quantitative analysis, and visualization as separate but connected scientific layers. Quantitative measurements remain tied to source-derived label volumes, while cleaned or smoothed geometry is treated as presentation-only.
+
+## Current Software Direction
+
+I am also developing a standalone scientific viewer for prepared 3D histology reconstructions. The current workflow supports:
+
+- independent class visibility and opacity,
+- non-destructive clipping,
+- display-only smoothing,
+- scientific-original versus presentation display modes,
+- reproducible camera and visualization state,
+- screenshot export, and
+- handoff of visualization state to DCC/rendering environments.
+
+My current viewer work is centered on validated NESTOR-derived reconstruction packages rather than arbitrary raw-data import.
 
 ## Public Portfolio
 
-My public portfolio is intentionally designed as a **methodology portfolio**, not a data-release repository.
-
 - [Whole-Slide Histology Registration and 3D Reconstruction Portfolio](https://github.com/kiarashkasbi/histology-registration-portfolio)
 
-It documents the public research direction, registration/QC reasoning, reconstruction-oriented workflow concepts, and biomedical visualization logic without publishing private thesis material, unpublished figures, identifiers, original thesis code, or sensitive implementation details.
+The portfolio is intentionally a **methodology portfolio**, not a data-release repository. It documents public-safe concepts around registration, 3D reconstruction, spatial analysis, visualization, validation, and reproducibility without publishing private thesis material or unpublished results.
 
 ## Background
 
 **Biology and biomedical science:** Cellular and Molecular Biology, molecular biology, cancer biology, genomics, epigenetics, protein engineering, pharmacogenomics, PCR methodology, and translational medicine.
 
-**Computational direction:** applied Python-based biomedical workflow organization, image preprocessing, whole-slide image handling, tissue-mask logic, registration concepts, quality-control metrics, reconstruction-oriented data preparation, and reproducible documentation.
+**Computational pathology:** image preprocessing, whole-slide handling, serial-section registration, tissue-mask logic, quality control, semantic volume reconstruction, and quantitative spatial analysis.
 
-**Visual computing:** 3D modelling, rendering, anatomy-focused modelling, spatial visualization, visual quality control, interactive 3D inspection, and biomedical presentation.
+**3D and visualization:** 3D Slicer, ParaView, Maya, Blender, V-Ray, PyVista/VTK, interactive inspection, clipping, class-based visualization, and scientific presentation.
 
 ## Tools And Environments
 
-Python, OpenCV, OpenSlide, SimpleITK, NumPy, SciPy, Pillow, Conda/Miniconda, QuPath, Fiji/ImageJ, 3D Slicer, ParaView, Maya, Blender, ZBrush, Substance 3D Painter, V-Ray, Arnold, and Unreal Engine.
+Python, OpenCV, OpenSlide, SimpleITK, NumPy, SciPy, pandas, scikit-image, QuPath, Fiji/ImageJ, 3D Slicer, ParaView, PyVista, VTK, PySide6/Qt, Maya, Blender, V-Ray, and Unreal Engine.
 
 ## Public-Safety Boundary
 
-My public repositories do not publish private thesis datasets, patient/sample identifiers, unpublished figures, local file paths, credentials, private laboratory material, or original private implementation code. More detailed research material is shared only when appropriate and with the relevant approval.
+My public repositories do not publish private thesis datasets, patient/sample identifiers, unpublished figures, real thesis volumes or meshes, local file paths, credentials, private laboratory material, or original private implementation code. Detailed research material is shared only when appropriate and with the relevant approval.
 
 ## Contact
 
