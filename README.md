@@ -1,63 +1,56 @@
 # Kiarash Kasbi
 
-**MSc Medical Biotechnology | Computational Pathology | Serial Histology Registration | 3D Tissue Reconstruction**
+**MSc Medical Biotechnology | Computational Pathology | Histology Alignment | 3D Tissue Reconstruction**
 
-I am an MSc Medical Biotechnology student at the University of Padua with a **BSc background in Cellular and Molecular Biology**, working at the intersection of tissue biology, computational pathology, biomedical image analysis, and scientific visualization.
+I am an MSc Medical Biotechnology student at the University of Padua with a **BSc background in Cellular and Molecular Biology**, working at the intersection of tissue biology, biomedical image analysis, and scientific visualization.
 
-My current thesis work focuses on turning serial histology sections and semantic tissue predictions into a spatially coherent, auditable, and interpretable 3D representation.
+My current thesis work involves serial H&E sections from breast tumor samples, with a focus on section stacking/alignment, 3D reconstruction from AI-based tumor segmentations, and development of tools for interactive 3D visualization.
 
 ## Current Research Focus
 
-- Whole-slide and serial-section histology registration
-- Registration quality control and failure-aware stack construction
-- Semantic 3D tissue reconstruction
-- Quantitative spatial analysis of reconstructed tissue classes
-- Connected components, persistence, inter-class adjacency, topology, and skeleton-based descriptors
-- Class-separated scientific and presentation geometry
+- Serial histology section alignment and stacking
+- Registration quality control
+- 3D reconstruction from AI-based tumor segmentations
+- Class-separated 3D tissue visualization
 - Interactive biomedical visualization
 - Reproducible scientific software and visualization workflows
 
-## Thesis Workflow
+## Public Thesis Workflow
 
-At a public, non-sensitive level, the workflow can be summarized as:
+At a public, non-sensitive level, my work can be summarized as:
 
 ```text
-serial histology sections
-→ registration and quality control
-→ aligned section stack
-→ semantic label reconstruction
-→ quantitative 3D spatial analysis
-→ class-separated 3D representations
-→ interactive scientific inspection
+serial H&E sections
+→ alignment and stack preparation
+→ AI-based tumor segmentations
+→ 3D reconstruction
+→ interactive scientific visualization
 ```
 
-The work treats registration, reconstruction, quantitative analysis, and visualization as separate but connected scientific layers. Quantitative measurements remain tied to source-derived label volumes, while cleaned or smoothed geometry is treated as presentation-only.
+This public description intentionally does not disclose the confidential segmentation pipeline, the broader scientific scope of the project, unpublished results, or private implementation details.
 
-## Current Software Direction
+## Visualization Tool Development
 
-I am also developing a standalone scientific viewer for prepared 3D histology reconstructions. The current workflow supports:
+I am also developing a standalone scientific visualization tool for prepared 3D reconstructions. Public-facing functionality includes:
 
 - independent class visibility and opacity,
 - non-destructive clipping,
-- display-only smoothing,
-- scientific-original versus presentation display modes,
-- reproducible camera and visualization state,
+- display-oriented smoothing,
+- camera and visualization-state control,
 - screenshot export, and
-- handoff of visualization state to DCC/rendering environments.
-
-My current viewer work is centered on validated NESTOR-derived reconstruction packages rather than arbitrary raw-data import.
+- preparation of visualization state for external 3D/rendering environments.
 
 ## Public Portfolio
 
-- [Whole-Slide Histology Registration and 3D Reconstruction Portfolio](https://github.com/kiarashkasbi/histology-registration-portfolio)
+- [Histology Registration and 3D Reconstruction Portfolio](https://github.com/kiarashkasbi/histology-registration-portfolio)
 
-The portfolio is intentionally a **methodology portfolio**, not a data-release repository. It documents public-safe concepts around registration, 3D reconstruction, spatial analysis, visualization, validation, and reproducibility without publishing private thesis material or unpublished results.
+The portfolio is intentionally a **methodology portfolio**, not a data-release repository.
 
 ## Background
 
 **Biology and biomedical science:** Cellular and Molecular Biology, molecular biology, cancer biology, genomics, epigenetics, protein engineering, pharmacogenomics, PCR methodology, and translational medicine.
 
-**Computational pathology:** image preprocessing, whole-slide handling, serial-section registration, tissue-mask logic, quality control, semantic volume reconstruction, and quantitative spatial analysis.
+**Computational and imaging direction:** histology image handling, serial-section alignment, registration quality control, 3D reconstruction, and scientific visualization.
 
 **3D and visualization:** 3D Slicer, ParaView, Maya, Blender, V-Ray, PyVista/VTK, interactive inspection, clipping, class-based visualization, and scientific presentation.
 
@@ -67,7 +60,7 @@ Python, OpenCV, OpenSlide, SimpleITK, NumPy, SciPy, pandas, scikit-image, QuPath
 
 ## Public-Safety Boundary
 
-My public repositories do not publish private thesis datasets, patient/sample identifiers, unpublished figures, real thesis volumes or meshes, local file paths, credentials, private laboratory material, or original private implementation code. Detailed research material is shared only when appropriate and with the relevant approval.
+My public repositories do not disclose the confidential segmentation workflow, broader project scope, private thesis datasets, patient/sample identifiers, unpublished figures or results, real thesis volumes or meshes, local file paths, credentials, private laboratory material, or private implementation details.
 
 ## Contact
 
